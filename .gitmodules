@@ -1,0 +1,9 @@
+[submodule "CAD/base-design"]
+	path = CAD/base-design
+	url = https://github.com/Plastic-Scanner/handheld-scanner.git
+[submodule "base-design"]
+	path = base-design
+	url = https://github.com/Plastic-Scanner/handheld-scanner.git
+[submodule "Hardware/base-design-PCB"]
+	path = Hardware/base-design-PCB
+	url = https://github.com/LokiMetaSmith/handheld-scanner.git
