@@ -7,11 +7,16 @@ Plastic is a widely used material, inexpensive to manufacture, and therefore a c
 Especially for small-scale recycling facilities and projects with limited financial resources, commercial plastic scanners are too expensive. Sorting is therefore done manually, which is often very labor-intensive and of low accuracy. An example is WASTE Adviser (WASTE Adviser Website, 2025), an NGO in Malawi that is establishing plastic beneficiation pathways for PET and HDPE. For the quality of the upcycled product, it is essential that the plastic is sorted with high accuracy; otherwise, the recycled product suffers from embrittlement.
 
 The plastic scanner is a low cost device, utiliziing cheap infrared LED's and a machine learning model to identify the following six types of plastic:
+
 ![plastic types](Documentation/Images/symbols_plastic.jpg)
 
 ## How it works
 The PlasticScanner allows you to identify six different plastic types by using an approach called **discreate near-infrared (NIR) spectroscopy **. The IR LED's on the Scanner module emitt light one-by-one for a short period of time. Each time the reflectance of the emitted light is measured by a Photodiode. 
-![NIR Spectroscopy](Documentation/Images/NIR_spectrometry.png)This results in a Spectralanalysis of the measured reflectance.The plastic identification works by comparing each measurment with the distinct reflectance spectrum of the six plastic types. 
+
+![NIR Spectroscopy](Documentation/Images/NIR_spectrometry_illustration.png)
+
+This results in a Spectralanalysis of the measured reflectance.The plastic identification works by comparing each measurment with the distinct reflectance spectrum of the six plastic types. 
+
 ![normalized reflectance](Documentation/Images/Reflectance.png)
 
 ## Handheld Scanner
