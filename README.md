@@ -13,7 +13,8 @@ The plastic scanner is a low cost device, utiliziing cheap infrared LED's and a 
 ## How it works
 The PlasticScanner allows you to identify six different plastic types by using an approach called **discreate near-infrared (NIR) spectroscopy **. The IR LED's on the Scanner module emitt light one-by-one for a short period of time. Each time the reflectance of the emitted light is measured by a Photodiode. 
 
-![NIR Spectroscopy](Documentation/Images/NIR_spectrometry_illustration.png)
+![NIR Spectroscopy](Documentation/Images/NIR_spectrometry_illustration.png)<img src="Documentation/Images/NIR_spectrometry_illustration.png" alt="Alt text" width="50%" />
+
 
 This results in a Spectralanalysis of the measured reflectance.The plastic identification works by comparing each measurment with the distinct reflectance spectrum of the six plastic types. 
 
