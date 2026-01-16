@@ -13,8 +13,7 @@ The plastic scanner is a low cost device, utiliziing cheap infrared LED's and a 
 ## How it works
 The PlasticScanner allows you to identify six different plastic types by using an approach called **discreate near-infrared (NIR) spectroscopy **. The IR LED's on the Scanner module emitt light one-by-one for a short period of time. Each time the reflectance of the emitted light is measured by a Photodiode. 
 
-![NIR Spectroscopy]<img src="Documentation/Images/NIR_spectrometry_illustration.png" alt="Alt text" width="50%" />
-
+<img src="Documentation/Images/NIR_spectrometry_illustration.png" alt="Alt text" width="50%" />
 
 This results in a Spectralanalysis of the measured reflectance.The plastic identification works by comparing each measurment with the distinct reflectance spectrum of the six plastic types. 
 
@@ -31,6 +30,14 @@ Components:
 - Button
 - Power on/off shifter
 
+## Further improvements
+- Firmware User Interface 
+- Firmware add Color Sensor
+- Tetsing
+- Supplychain addaptations (IR LED's)
+- Find better Button solution (see Hardware Readme)
+
+There is still a lot to improve! The User interface is still quite basic and could be improved to give the user a clear feedback. Testing was not jet done due to time constraints and would be very important. The color sensor is included on the PCB, but was not implemented in the Firmware. For future designs the supplier of the IR LED's should be changed. Since especially high wavelengths are hard to get and tend to have long delivery times. Changing to through hole LED's multiplies the range of suppliers. 
 ## References
 
 <!-- PCB: Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
