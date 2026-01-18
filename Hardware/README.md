@@ -1,4 +1,5 @@
 ## Hardware
+<img src="Images/Hardware Circuit.png" alt="Alt text" width="50%" />
 The hardware has the following components:
 - Scanning PCB
 - Lilygo T-RGB
