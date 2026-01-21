@@ -21,7 +21,7 @@ Implemented features:
 - Results UI
 
 ## Future Work
-Next steps could be generating training data for the machine learning model, especially for the 850nm LED and going through the available traning data of the PlasticScanner. There are different versions of the model that should be compared before retraining one of them with the specified IR LED wavelength range. Additionally the AS7341 color sensor could be implemented in the Firmware and in the training data. 
+Next steps could be generating training data for the machine learning model, especially for the 850nm LED and going through the available traning data of the PlasticScanner. There are different versions of the model that should be compared before retraining one of them with the specified IR LED wavelength range. Additionally the AS7341 color sensor could be implemented in the Firmware and used for the training data. 
 
 
 ## References
@@ -29,5 +29,3 @@ This firmware is based on:
 - LilyGO T-RGB firmware
 - https://github.com/Xinyuan-LilyGO/LilyGo-T-RGB.git
 
-Original license is preserved.
-Significant modifications were made for the Plastic Scanner project.
