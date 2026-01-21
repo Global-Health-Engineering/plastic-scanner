@@ -23,3 +23,5 @@ The USB-C port access could be optimized and the fixtures changed to more durabl
 The Cad was manly influenced by the work of the design analysis from Markus Glavind and Brandt Gregersen Gustav found here: 
 
 Markus Glavind & Brandt Gregersen Gustav. (2023). PlasticScanner—Development and product realisation of a NIR polymer scanner. Master Thesis, DTU, 122.
+
+<!-- Markus Glavind, [handheld scanner] (https://github.com/Plastic-Scanner/handheld-scanner.git)  -->

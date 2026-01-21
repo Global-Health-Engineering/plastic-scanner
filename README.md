@@ -40,11 +40,13 @@ Components:
 There is still a lot to improve! The User interface is still quite basic and could be improved to give the user a clear feedback. Testing was not jet done due to time constraints and would be very important. The color sensor is included on the PCB, but was not implemented in the Firmware. For future designs the supplier of the IR LED's should be changed. Since especially high wavelengths are hard to get and tend to have long delivery times. Changing to through hole LED's multiplies the range of suppliers. 
 ## References
 
-<!-- PCB: Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
+<!-- 
+PCB: Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
 
 Firmware:
 
-CAD:  -->
+CAD: Markus Glavind, [handheld scanner] (https://github.com/Plastic-Scanner/handheld-scanner.git) 
+-->
 
 Walker, T. R., & Fequet, L. (2023). Current trends of unsustainable plastic production and micro(nano)plastic pollution. TrAC Trends in Analytical Chemistry, 160, 116984. https://doi.org/10.1016/j.trac.2023.116984
 
