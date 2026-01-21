@@ -1,5 +1,11 @@
 ## Firmware
-The firmware is still very basic and not fully functioning. All UI's are still quite raw and only show the necessary. The Firmware can initiate a scan and send the recived data to the ML model. The model gives a result what plastic it thinks is scanned. Somthing in that logic is still wrong, since the ML always concludes to not know the material. Additionaly the firmware is still implemented as an example in the complete Lilygo Firmware. This is due the firmware otherwise crashing (ESP32-S3 crashes right after start up) if its outside of the example structure. 
+This is the firmware for the handheld PlasticScanner using a LilyGo board. The Firmware can initiate a scan and send the recived data to the machine learning model. The model gives a result what plastic it thinks is scanned. Since the current model uses different IR LED's the result is not correct. The model would need to be retrained to generate correct results. 
+
+<img src="Images/IR_LED_range.png" alt="Alt text" width="50%" />
+
+ 
+Additionaly the firmware is still implemented as an example in the complete Lilygo Firmware. This is due the firmware otherwise crashing (ESP32-S3 crashes right after start up) if its outside of the example structure. To run the current firmware the platform.ini needs to be set on: 
+src_dir = examples/PlasticScanner
 
 Implemented:
 - Deep-sleep after long button press
