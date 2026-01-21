@@ -6,7 +6,8 @@ This is the firmware for the handheld PlasticScanner using a LilyGo board. The F
  
 Additionaly the firmware is still implemented as an example in the complete Lilygo Firmware. This is due the firmware otherwise crashing (ESP32-S3 crashes right after start up) if its outside of the example structure. To run the current firmware the platform.ini needs to be set on:
  
-<span style="color:red;">src_dir = examples/PlasticScanner</span>
+<code style="color:red;">src_dir = examples/PlasticScanner</code>
+
 
 Implemented features:
 - Deep-sleep after long button press
