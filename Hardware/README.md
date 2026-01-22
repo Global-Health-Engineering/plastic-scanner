@@ -14,7 +14,7 @@ The Scanning PCB was adapted from Lawrence Kincheloe's design, which is the late
 
 Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
 
-The PCB was soldered by hand using low-temperature solder paste, a soldering iron, a hot-air gun, and a microscope. 
+The PCB was soldered by hand using low-temperature solder paste, a soldering iron, a hot-air gun, and a microscope. The 1650nm IR LED is still missing, since its delivery data has been pushed to the 18.08.2026. 
 
 <p align="center">
   <img src="Images/PCB.jpeg" height="300" />
@@ -26,5 +26,5 @@ The PCB was soldered by hand using low-temperature solder paste, a soldering iro
 - IR LED sourcing problems -> change to push through LED's instead of SMD
 - Separated LED PCB (first design exists)
 - Find better solution for Button Signal (currently BOT Button repurposed as an external input)
+- to reduce cost the design could be changerd to only one photodiode or the LED count could be reduced
 
-<img src="Images/highjacked_boot_pin.jpeg" alt="Alt text" width="30%" />
