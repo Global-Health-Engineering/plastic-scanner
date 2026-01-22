@@ -46,9 +46,9 @@ Components:
 There is still a lot to improve! The most important point is that the current machine learning model still uses the old dataset, which relied on different IR LED ranges. To finalize this device, the model would need to be retrained with data for the wavelengths actually used (see Firmware). Due to this, testing has not yet been performed. Establishing the accuracy of the device and testing it for the intended use case is of high importance. The color sensor is included on the PCB but has not yet been implemented in the firmware. For future designs, the supplier of the IR LEDs should be changed, as especially high-wavelength LEDs are difficult to source and often have long delivery times. Switching to through-hole LEDs would increase the number of available suppliers and simplify sourcing.
 
 ## References
-Plastic Scanner Website: https://plasticscanner.com/ 
+PlasticScanner Website: https://plasticscanner.com/ 
 
-Plastic Scanner Github: [Plastic-Scanner Project](https://github.com/Plastic-Scanner)
+PlasticScanner Github: [Plastic-Scanner Project](https://github.com/Plastic-Scanner)
 
 
 PCB: Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
