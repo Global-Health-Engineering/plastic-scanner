@@ -33,3 +33,12 @@ This firmware is based on:
 - LilyGO T-RGB firmware
 - https://github.com/Xinyuan-LilyGO/LilyGo-T-RGB.git
 
+Machine Learning Repositories:
+- https://github.com/Plastic-Scanner/Machine-Learning.git
+
+Traning Data:
+- https://github.com/Plastic-Scanner/Data.git 
+
+Visualization, especially for Developement Board:
+- https://github.com/Plastic-Scanner/PSplot.git 
+
