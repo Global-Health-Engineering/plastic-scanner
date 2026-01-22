@@ -4,13 +4,13 @@
 The hardware has the following components:
 
 - Scanning PCB
-- Lilygo T-RGB
+- Lilygo T-RGB (ESP32-S3, Touch Screen, Battery recharging cycle, USB-C port, SD card)
 - Button
-- on/off switch
+- on/off Switch
 - 3.7V 2600mAh Battery, rechargable 
 
 ## Scanning PCB
-The Scanning PCB was adapted from Lawrence Kincheloe's design, which is the latest version of the PlasticScanner handheld design. The IR LED wavelengths were changed to available LED's and a few Resistor values had to be changed accordingly. 
+The scanning PCB was adapted from Lawrence Kincheloe's design, which represents the latest version of the handheld PlasticScanner. The IR LED wavelengths were modified to use available LEDs, and a few resistor values were adjusted accordingly.
 
 Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
 
@@ -25,6 +25,6 @@ The PCB was soldered by hand using low-temperature solder paste, a soldering iro
 ## Further Work
 - IR LED sourcing problems -> change to push through LED's instead of SMD
 - Separated LED PCB (first design exists)
-- Find better solution for Button Signal (currently BOT Button repurposed as an external input)
+- Find better solution for Button Signal (currently BOOT Button repurposed as an external input)
 - to reduce cost the design could be changerd to only one photodiode or the LED count could be reduced
 

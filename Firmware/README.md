@@ -1,10 +1,11 @@
 ## Firmware
-This is the firmware for the handheld PlasticScanner using a LilyGo board and is build as a PlatformIO project. The Firmware can initiate a scan and send the recived data to the machine learning model. The model gives a result what plastic it thinks is scanned. Since the current model uses different IR LED's the result is not correct. The model would need to be retrained to generate correct results. In red the 1720nm LED, which is currently unavailable and was thus replaced with a (green) 850nm LED. The orange 1650nm LED, was available (delivery data pushed to 18.08.2026) but now also got discontinued. 
+This is the firmware for the handheld PlasticScanner using a LilyGO board and is built as a PlatformIO project. The firmware can initiate a scan and send the received data to the machine learning model. The model then provides a prediction of which type of plastic was scanned. Since the current model was trained with different IR LEDs, the results are not accurate. The model would need to be retrained to generate correct predictions.
+
+In the illustration, the 1720 nm LED is shown in red. It is currently unavailable and was replaced with a (green) 850 nm LED. The orange 1650 nm LED was initially available (delivery date pushed to 18.08.2026) but has now also been discontinued.
 
 <img src="Images/IR_LED_range.png" alt="Alt text" width="70%" />
 
- 
-Additionaly the firmware is still implemented as an example in the complete Lilygo Firmware. This is due the firmware otherwise crashing (ESP32-S3 crashes right after start up) if its outside of the example structure. To run the current firmware the platform.ini needs to be set on:
+Additionally, the firmware is still implemented as an example within the complete LilyGO firmware. This is necessary because the ESP32-S3 crashes immediately after startup if the firmware is used outside of the example structure. To run the current firmware, the platformio.ini file needs to be configured as follows:
  
 <code style="color:red;">src_dir = examples/PlasticScanner</code>
 
@@ -22,10 +23,10 @@ Implemented features:
 
 <img src="Images/UI.png" alt="Alt text" width="90%" />
 
-The Firmware can be uploaded to the LilyGo by pressing BOT and RESET button simuntaniusly, then letting go of RESET first, then BOT and directly upload the Firmware.
+The firmware can be uploaded to the LilyGO by pressing the BOOT and RESET buttons simultaneously, then releasing RESET first, followed by BOOT, and immediately starting the firmware upload.
 
 ## Future Work
-Next steps should be generating training data for the machine learning model, especially for the 850nm LED and going through the available traning data of the PlasticScanner project. There are different versions of the model that should be compared before retraining one of them with the specified IR LED wavelength range. Additionally the AS7341 color sensor could be implemented in the Firmware and used for the training data. 
+The next steps should be generating training data for the machine learning model, particularly for the 850 nm LED, and reviewing the available training data from the PlasticScanner project. Different versions of the model should be compared before retraining one of them with the specified IR LED wavelength range. Additionally, the AS7341 color sensor could be implemented in the firmware and incorporated into the training data.
 
 
 ## References

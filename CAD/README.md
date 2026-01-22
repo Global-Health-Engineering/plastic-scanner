@@ -7,20 +7,20 @@ The enclosure was designed to house the following components:
 - On/Off shifter
 - 2x M3 screws (one 20mm, one 10mm)
 
-The design includes a holding space for the battery and multiple fixtures for all other components. Since the project is still in the developement phase all fixtures were kept simple and reversible, to insure easy access to all components. Additionally screw holdings were put to give the option of closing the device. They are supposed to be used with wooden screws and cant be opened infinitivly afterwards, since the thread will break. But the device closes firmly without screws, so for developement purposes they are not needed.
+The design includes a holding space for the battery and multiple fixtures for all other components. Since the project is still in the development phase, all fixtures were kept simple and reversible to ensure easy access to the components. Additionally, screw holders were added to provide the option of closing the device. These are intended for use with wooden screws and cannot be opened indefinitely, as the threads may break. However, the device closes firmly without screws, so for development purposes, they are not required.
 
 <img src="Images/assembly.jpeg" alt="Alt text" width="50%" />
 
 ## Printing Orientation:
-The Printing Orientation was optimized for better surface texture. It was found to be best to orient the top part open side down, while orienting the bottom part open side up. The open side beeing the side where the components are mounted. Printing slower and with minimized thickness of 0.1mm per slice, gave the best results of a relativly even and nice to touch surface.
+The printing orientation was optimized for better surface texture. It was found to be best to orient the top part with the open side facing down, and the bottom part with the open side facing up. The open side is the side where the components are mounted. Printing at a slower speed with a layer height of 0.1 mm per slice produced the most uniform and pleasant-to-touch surface.
 
 <img src="Images/enclosure.png" alt="Alt text" width="30%" />
 
-## Further Improvements:
-The USB-C port access could be optimized and the fixtures changed to more durable solutions if the design is more definit. 
+## Further Work:
+The USB-C port access could be improved and the fixtures changed to more durable solutions, if the design is more definit. 
 
 ## References: 
-The Cad was manly influenced by the work of the design analysis from Markus Glavind and Brandt Gregersen Gustav found here: 
+The CAD was manly influenced by the design analysis from Markus Glavind and Brandt Gregersen Gustav found here: 
 
 Markus Glavind & Brandt Gregersen Gustav. (2023). PlasticScanner—Development and product realisation of a NIR polymer scanner. Master Thesis, DTU, 122.
 
