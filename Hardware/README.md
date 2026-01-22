@@ -22,7 +22,7 @@ The PCB was soldered by hand using low-temperature solder paste, a soldering iro
 </p>
 
 
-## Further Improvements
+## Further Work
 - IR LED sourcing problems -> change to push through LED's instead of SMD
 - Separated LED PCB (first design exists)
 - Find better solution for Button Signal (currently BOT Button repurposed as an external input)

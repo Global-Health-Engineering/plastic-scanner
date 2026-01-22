@@ -25,7 +25,7 @@ This results in a Spectralanalysis of the measured reflectance.The plastic ident
 
 ![normalized reflectance](Images/Reflectance.png)
 
-## Handheld Scanner
+## Handheld Device
 ![components](Images/components.png)
 
 Components:
@@ -48,6 +48,9 @@ Components:
 There is still a lot to improve! The most important point beeing that the current machine learning model still uses the old dataset, which used different IR LED ranges. To finalize this device the model would need to be retrained with the data for the wavelengths used, see Firmware. Due to this testing was not yet done. Establishing the accuracy of the device and testing it for the use case would be of high importance. The color sensor is included on the PCB, but was not implemented in the Firmware. For future designs the supplier of the IR LED's should be changed. Since especially high wavelengths are hard to get and tend to have long delivery times. Changing to through hole LED's multiplies the range of suppliers. 
 
 ## References
+Plastic Scanner Website: https://plasticscanner.com/ 
+
+Plastic Scanner Github: [Plastic-Scanner Project](https://github.com/Plastic-Scanner)
 
 
 PCB: Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
