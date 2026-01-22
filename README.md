@@ -1,6 +1,9 @@
 ## Plastic Scanner
  The goal of this project is to build a minimum viable product of the open-source Plastic Scanner and assess its use for the Global Health Engineering Lab. The design will build on the existing expertise of the project and incorporate the newest hardware version, DB 2.3. The overall goal of the project is to assess the scanner’s adaptability to the use case in Malawi and improve it. This scanner is functional and could be repoduced for testing and development purposes, however it is not adviced to use it in any commercial application. Further development is still needed.
 
+ ![Watch the demo video](Images/Video final device.mp4)
+
+
 ## Introduction
 Plastic is a widely used material, inexpensive to manufacture, and therefore a common choice for single-use products. However, due to its extensive use, global plastic pollution and its subsequent degradation in landfills into micro- and nanoplastics are threatening ecosystems (Walker & Fequet, 2023). Estimates show that plastic consumption will further increase from 464 Mt/y in 2020 to over 700 Mt/y by 2050 (Dokl et al., 2024). Plastic recycling is established, but it first requires thorough separation of plastic components. Industrial plastic scanners use various spectroscopic methods, with Near-Infrared (NIR) spectroscopy being the main technology (Werner et al., 2023). Light is emitted, and the reflected relative light intensity from the material is measured to identify its composition.
 
@@ -8,19 +11,19 @@ Especially for small-scale recycling facilities and projects with limited financ
 
 The plastic scanner is a low cost device, utiliziing cheap infrared LED's and a machine learning model to identify the following six types of plastic:
 
-![plastic types](Documentation/Images/symbols_plastic.jpg)
+![plastic types](Images/symbols_plastic.jpg)
 
 ## How it works
 The PlasticScanner allows you to identify six different plastic types by using an approach called **discreate near-infrared (NIR) spectroscopy **. The IR LED's on the Scanner module emitt light one-by-one for a short period of time. Each time the reflectance of the emitted light is measured by a Photodiode. 
 
-<img src="Documentation/Images/NIR_spectrometry_illustration.png" alt="Alt text" width="50%" />
+<img src="Images/NIR_spectrometry_illustration.png" alt="Alt text" width="50%" />
 
 This results in a Spectralanalysis of the measured reflectance.The plastic identification works by comparing each measurment with the distinct reflectance spectrum of the six plastic types. 
 
-![normalized reflectance](Documentation/Images/Reflectance.png)
+![normalized reflectance](Images/Reflectance.png)
 
 ## Handheld Scanner
-![components](Documentation/Images/components.png)
+![components](Images/components.png)
 
 Components:
 - 3d printed enclosure
