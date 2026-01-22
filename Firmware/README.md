@@ -20,12 +20,12 @@ Implemented features:
 - Scanning UI
 - Results UI
 
-<img src="Images/UI.png" alt="Alt text" width="70%" />
+<img src="Images/UI.png" alt="Alt text" width="90%" />
 
 The Firmware can be uploaded to the LilyGo by pressing BOT and RESET button simuntaniusly, then letting go of RESET first, then BOT and directly upload the Firmware.
 
 ## Future Work
-Next steps could be generating training data for the machine learning model, especially for the 850nm LED and going through the available traning data of the PlasticScanner. There are different versions of the model that should be compared before retraining one of them with the specified IR LED wavelength range. Additionally the AS7341 color sensor could be implemented in the Firmware and used for the training data. 
+Next steps should be generating training data for the machine learning model, especially for the 850nm LED and going through the available traning data of the PlasticScanner project. There are different versions of the model that should be compared before retraining one of them with the specified IR LED wavelength range. Additionally the AS7341 color sensor could be implemented in the Firmware and used for the training data. 
 
 
 ## References
