@@ -21,7 +21,7 @@ The PlasticScanner allows you to identify six different plastic types by using a
 
 <img src="Images/NIR_spectrometry_illustration.png" alt="Alt text" width="50%" />
 
-This results in a Spectralanalysis of the measured reflectance.The plastic identification works by comparing each measurment with the distinct reflectance spectrum of the six plastic types. 
+This results in a Spectralanalysis of the measured reflectance.The plastic identification works by comparing each measurment with the distinct reflectance spectrum of the six plastic types (see illustration, soly for visualization, not to scale). Since the device only gives 8 readings at specific wavelengths and the actual distinct reflectance spectrum of plastic can be very close together a machine learning Model applied. The model helps identifying plastics more reliably without seeing the full spectral sweep. Additional information such as the color can help further improve the model, since especially dark plastics are hard to identify with this method.
 
 ![normalized reflectance](Images/Reflectance.png)
 
@@ -45,7 +45,7 @@ Components:
 - Supplychain addaptations (IR LED's)
 - Find better Button solution (see Hardware Readme)
 
-There is still a lot to improve! The User interface is still quite basic and could be improved to give the user a clear feedback. Testing was not jet done due to time constraints and would be very important. The color sensor is included on the PCB, but was not implemented in the Firmware. For future designs the supplier of the IR LED's should be changed. Since especially high wavelengths are hard to get and tend to have long delivery times. Changing to through hole LED's multiplies the range of suppliers. 
+There is still a lot to improve! The most important point beeing that the current machine learning model still uses the old dataset, which used different IR LED ranges. To finalize this device the model would need to be retrained with the data for the wavelengths used, see Firmware. Due to this testing was not yet done. Establishing the accuracy of the device and testing it for the use case would be of high importance. The color sensor is included on the PCB, but was not implemented in the Firmware. For future designs the supplier of the IR LED's should be changed. Since especially high wavelengths are hard to get and tend to have long delivery times. Changing to through hole LED's multiplies the range of suppliers. 
 
 ## References
 

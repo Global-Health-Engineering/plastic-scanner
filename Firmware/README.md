@@ -1,5 +1,5 @@
 ## Firmware
-This is the firmware for the handheld PlasticScanner using a LilyGo board. The Firmware can initiate a scan and send the recived data to the machine learning model. The model gives a result what plastic it thinks is scanned. Since the current model uses different IR LED's the result is not correct. The model would need to be retrained to generate correct results. In red the 1720nm LED, which is currently unavailable and was thus replaced with a (green) 850nm LED. The orange 1650nm LED, was available but got discontinued. 
+This is the firmware for the handheld PlasticScanner using a LilyGo board and is build as a PlatformIO project. The Firmware can initiate a scan and send the recived data to the machine learning model. The model gives a result what plastic it thinks is scanned. Since the current model uses different IR LED's the result is not correct. The model would need to be retrained to generate correct results. In red the 1720nm LED, which is currently unavailable and was thus replaced with a (green) 850nm LED. The orange 1650nm LED, was available (delivery data pushed to 18.08.2026) but now also got discontinued. 
 
 <img src="Images/IR_LED_range.png" alt="Alt text" width="70%" />
 
@@ -19,6 +19,8 @@ Implemented features:
 - Inital UI
 - Scanning UI
 - Results UI
+
+<img src="Images/UI.png" alt="Alt text" width="70%" />
 
 The Firmware can be uploaded to the LilyGo by pressing BOT and RESET button simuntaniusly, then letting go of RESET first, then BOT and directly upload the Firmware.
 
