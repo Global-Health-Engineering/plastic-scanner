@@ -1,6 +1,6 @@
 ## Plastic Scanner
  The goal of this project is to build a minimum viable product of the open-source Plastic Scanner and assess its use for the Global Health Engineering Lab. The design will build on the existing expertise of the project and incorporate the newest hardware version, DB 2.3. The overall goal of the project is to assess the scanner’s adaptability to the use case in Malawi and improve it. This scanner is functional and could be repoduced for testing and development purposes, however it is not adviced to use it in any commercial application. Further development is still needed.
- 
+
 <p align="center">
   <img src="Images/final_device_on_table.jpeg" width="45%" />
   <img src="Images/results.jpeg" width="45%" />
@@ -30,13 +30,15 @@ This results in a Spectralanalysis of the measured reflectance.The plastic ident
 
 Components:
 - 3d printed enclosure
-- scanning PCB (I2C for data transfer)
+- Scanning PCB (I2C for data transfer)
 - Lilygo T-RGB UI interface, ESP32-S3 Microcontroller, USB-C port, Battery recharging, (I2C for data transfer)
 - 3.7V 2600mAh Battery
 - Button
 - Power on/off shifter
 
 ## Further improvements
+- Create Training Data machine learning Model for IR LED range
+- Retrain machine learning Model
 - Firmware User Interface 
 - Firmware add Color Sensor
 - Tetsing
@@ -44,15 +46,15 @@ Components:
 - Find better Button solution (see Hardware Readme)
 
 There is still a lot to improve! The User interface is still quite basic and could be improved to give the user a clear feedback. Testing was not jet done due to time constraints and would be very important. The color sensor is included on the PCB, but was not implemented in the Firmware. For future designs the supplier of the IR LED's should be changed. Since especially high wavelengths are hard to get and tend to have long delivery times. Changing to through hole LED's multiplies the range of suppliers. 
+
 ## References
 
-<!-- 
+
 PCB: Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/handheld-scanner.git)
 
-Firmware:
 
-CAD: Markus Glavind, [handheld scanner] (https://github.com/Plastic-Scanner/handheld-scanner.git) 
--->
+CAD: Markus Glavind, [handheld scanner](https://github.com/Plastic-Scanner/handheld-scanner.git) 
+
 
 Walker, T. R., & Fequet, L. (2023). Current trends of unsustainable plastic production and micro(nano)plastic pollution. TrAC Trends in Analytical Chemistry, 160, 116984. https://doi.org/10.1016/j.trac.2023.116984
 
