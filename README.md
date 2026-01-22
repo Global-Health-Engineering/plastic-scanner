@@ -1,7 +1,7 @@
 ## Plastic Scanner
  The goal of this project is to build a minimum viable product of the open-source Plastic Scanner and assess its use for the Global Health Engineering Lab. The design will build on the existing expertise of the project and incorporate the newest hardware version, DB 2.3. The overall goal of the project is to assess the scanner’s adaptability to the use case in Malawi and improve it. This scanner is functional and could be repoduced for testing and development purposes, however it is not adviced to use it in any commercial application. Further development is still needed.
 
-<img src="Images/final_device_on_table.png" alt="Alt text" width="30%" />
+<img src="Images/final_device_on_table.jpeg" alt="Alt text" width="50%" />
 
 ## Introduction
 Plastic is a widely used material, inexpensive to manufacture, and therefore a common choice for single-use products. However, due to its extensive use, global plastic pollution and its subsequent degradation in landfills into micro- and nanoplastics are threatening ecosystems (Walker & Fequet, 2023). Estimates show that plastic consumption will further increase from 464 Mt/y in 2020 to over 700 Mt/y by 2050 (Dokl et al., 2024). Plastic recycling is established, but it first requires thorough separation of plastic components. Industrial plastic scanners use various spectroscopic methods, with Near-Infrared (NIR) spectroscopy being the main technology (Werner et al., 2023). Light is emitted, and the reflected relative light intensity from the material is measured to identify its composition.
