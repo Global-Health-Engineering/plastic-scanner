@@ -19,11 +19,11 @@ The PlasticScanner is an open source project which developed a low-cost plastic 
 ## How it works
 The PlasticScanner allows the identification of six different plastic types using an approach called discrete near-infrared (NIR) spectroscopy. The IR LEDs on the Scanner module emit light one by one for a short period of time. Each time, the reflectance of the emitted light is measured by a photodiode.
 
-<img src="Images/NIR_spectrometry_illustration.png" alt="Alt text" width="50%" />
+<img src="Images/NIR_spectrometry_illustration.png" alt="Alt text" width="40%" />
 
 This results in a spectral analysis of the measured reflectance. Plastic identification is performed by comparing each measurement with the distinct reflectance spectra of the six plastic types (see illustration, for visualization only, not to scale). Since the device only provides eight readings at specific wavelengths and the actual reflectance spectra of plastics can be very similar, a machine learning model is applied. The model helps identify plastics more reliably without requiring a full spectral sweep. Additional information, such as color, can further improve the model, as dark plastics are particularly challenging to identify with this method.
 
-![normalized reflectance](Images/Reflectance.png)
+<img src="Images/reflectance.png" alt="Alt text" width="50%" />
 
 ## Handheld Device
 ![components](Images/components.png)
