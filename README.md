@@ -23,7 +23,7 @@ The PlasticScanner allows the identification of six different plastic types usin
 
 This results in a spectral analysis of the measured reflectance. Plastic identification is performed by comparing each measurement with the distinct reflectance spectra of the six plastic types (see illustration, for visualization only, not to scale). Since the device only provides eight readings at specific wavelengths and the actual reflectance spectra of plastics can be very similar, a machine learning model is applied. The model helps identify plastics more reliably without requiring a full spectral sweep. Additional information, such as color, can further improve the model, as dark plastics are particularly challenging to identify with this method.
 
-<img src="Images/reflectance.png" alt="Alt text" width="50%" />
+<img src="Images/Reflectance.png" alt="Alt text" width="50%" />
 
 ## Handheld Device
 ![components](Images/components.png)
