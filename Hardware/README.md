@@ -17,9 +17,10 @@ Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/ha
 The PCB was soldered by hand using low-temperature solder paste, a soldering iron, a hot-air gun, and a microscope. 
 
 <p align="center">
-  <img src="Images/PCB.jpeg" width="45%" />
-  <img src="Images/pcb_parts_placed.jpeg" width="45%" />
+  <img src="Images/PCB.jpeg" height="300" />
+  <img src="Images/pcb_parts_placed.jpeg" height="300" />
 </p>
+
 
 ## Further Improvements
 - IR LED sourcing problems -> change to push through LED's instead of SMD
