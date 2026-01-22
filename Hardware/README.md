@@ -16,6 +16,6 @@ Lawrence R Kincheloe III, [handheld scanner](https://github.com/LokiMetaSmith/ha
 ## Further Improvements
 - IR LED sourcing problems -> change to push through LED's instead of SMD
 - Separated LED PCB (first design exists)
-- Find better solution for Button Signal (currently BOT Button highjacked)
+- Find better solution for Button Signal (currently BOT Button repurposed as an external input)
 
-<img src="Images/highjacked_boot_pin.jpeg" alt="Alt text" width="50%" />
+<img src="Images/highjacked_boot_pin.jpeg" alt="Alt text" width="30%" />
