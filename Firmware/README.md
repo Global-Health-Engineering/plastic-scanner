@@ -30,8 +30,7 @@ The next steps should be generating training data for the machine learning model
 
 
 ## References
-This firmware is based on:
-- LilyGO T-RGB firmware
+This firmware is based on the LilyGo T-RGB Firmware:
 - https://github.com/Xinyuan-LilyGO/LilyGo-T-RGB.git
 
 Machine Learning Repositories:

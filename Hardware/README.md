@@ -9,6 +9,8 @@ The hardware has the following components:
 - on/off Switch
 - 3.7V 2600mAh Battery, rechargable 
 
+Since the Lilygo board does not provide any dedicated external input pins, the onboard BOOT button was repurposed as an external input. Although the Scanning PCB includes additional external inputs, using them would require transmitting an extra button signal over the existing I²C link between the two boards, which would significantly increase implementation complexity.
+
 ## Scanning PCB
 The scanning PCB was adapted from Lawrence Kincheloe's design, which represents the latest version of the handheld PlasticScanner. The IR LED wavelengths were modified to use available LEDs, and a few resistor values were adjusted accordingly.
 
