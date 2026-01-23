@@ -30,8 +30,8 @@ This results in a spectral analysis of the measured reflectance. Plastic identif
 
 Components:
 - 3D printed enclosure
-- Scanning PCB (I2C for data transfer)
-- Lilygo T-RGB UI interface, ESP32-S3 Microcontroller, USB-C port, Battery recharging, (I2C for data transfer)
+- Scanning PCB (I²C for data transfer)
+- Lilygo T-RGB UI interface, ESP32-S3 Microcontroller, USB-C port, Battery recharging, (I²C for data transfer)
 - 3.7V 2600mAh Battery
 - Button
 - Power on/off shifter
